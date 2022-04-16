@@ -1,7 +1,10 @@
 # IK_AHC
 
 IK-AHC is a novel hierarchical clustering algorithm. It uses a
-data-dependent kernel called Isolation Kernel to measure the the similarity between clusters. Technical details and analysis about the algorithm can be found in paper.
+data-dependent kernel called Isolation Kernel to measure the the similarity between clusters. Technical details and analysis about the algorithm can be found in the paper.
+
+Han, X., Zhu, Y., Ting, K. M., and Li, G., “The Impact of Isolation Kernel on Agglomerative Hierarchical Clustering Algorithms]”, <i>arXiv e-prints</i>, 2020. [(pdf)](https://arxiv.org/pdf/2010.05473.pdf)
+
 
 ## Setup
 
@@ -19,6 +22,23 @@ Run test on  all real data set:
 
 - Most of the program running time is used to calculate dendrogram purity.
 - You'll need firstly run the setup script before run the evaluation script.
+
+
+## Citing
+
+If you have used this codebase in a scientific publication and wish to cite it, please use the following publication (Bibtex format):
+
+```bibtex
+
+@ARTICLE{2020arXiv201005473H,
+  author = {Han, Xin and Zhu, Ye and Ting, Kai Ming and Li, Gang},
+  title = {The Impact of Isolation Kernel on Agglomerative Hierarchical Clustering Algorithms},
+  publisher = {arXiv},
+  year = {2020},
+  url = {https://arxiv.org/abs/2010.05473},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+```
 
 ## License
 

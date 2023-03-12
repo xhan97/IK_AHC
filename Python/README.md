@@ -28,6 +28,47 @@ If you use it for a scientific publication, please include a reference to this p
 
 
 ---
+###  Requirements
+---
+
+* Python 3.8+
+
+---
+### Setup
+---
+
+install requirements:
+
+```shell
+  pip install -r requirements.txt
+```
+
+---
+### How to use IsoKAHC
+---
+
+```python
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.datasets import load_wine
+from IsoKAHC import IsoKAHC
+from utils import metrics
+
+X, y = load_wine()
+scaler = MinMaxScaler()
+X = scaler.fit_transform(X)
+
+clf = IsoKAHC(n_estimators=200, max_samples=2, method='single')
+dendrogram  = clf.fit_transform(X)
+den_purity = metrics.dendrogram_purity(dendrogram, y)
+```
+
+---
+### Notes
+---
+
+- Most of the program running time is used to calculate dendrogram purity.
+
+---
 ### License
 ---
 

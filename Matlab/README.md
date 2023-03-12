@@ -28,6 +28,39 @@ If you use it for a scientific publication, please include a reference to this p
 
 
 ---
+###  Requirements
+---
+
+* Matlab R2021a
+
+---
+### Setup
+---
+
+Add the preject permanently to the Matlab path:
+
+```matlab
+  run setup.m
+```
+
+---
+### Run Evaluation
+---
+
+Run test on  all real data set:
+
+```matlab
+  run eva/eva_khc.m
+```
+
+---
+### Notes
+---
+
+- Most of the program running time is used to calculate dendrogram purity.
+- You'll need first run the setup script before running the evaluation script.
+
+---
 ### License
 ---
 

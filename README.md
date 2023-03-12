@@ -1,9 +1,11 @@
 # IK_AHC
 
-IK-AHC is a novel hierarchical clustering algorithm. It uses a
-data-dependent kernel called Isolation Kernel to measure the similarity between clusters. Technical details and analysis about the algorithm can be found in the paper.
+Agglomerative hierarchical clustering (AHC) is one of the popular clustering approaches. AHC can generate a dendrogram that provides richer information and insights from a dataset than partitioning clustering. However, a major problem with existing distance-based AHC methods is: it fails to effectively identify adjacent clusters with varied densities, regardless of the cluster extraction methods applied to the resultant dendrogram. IK_AHC aims to reveal the root cause of this issue and provide a solution by using a data-dependent kernel. We analyse the condition under which existing AHC methods fail to effectively extract clusters, and give the reason why the data-dependent kernel is an effective remedy. Our extensive empirical evaluation shows that the recently introduced Isolation Kernel produces a higher quality or purer dendrogram than distance, Gaussian Kernel and adaptive Gaussian Kernel in all the above mentioned AHC algorithms. Technical details and analysis of the algorithm can be found in the paper.
 
 Han, X., Zhu, Y., Ting, K. M., and Li, G., “The Impact of Isolation Kernel on Agglomerative Hierarchical Clustering Algorithms]”, <i>Pattern Recognition</i>, 2023. [(pdf)](https://arxiv.org/pdf/2010.05473.pdf)
+
+
+This repository contains the implementation of IK_AHC using MATLAB and Python, respectively.
 
 
 ---

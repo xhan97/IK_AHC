@@ -7,6 +7,8 @@ Han, X., Zhu, Y., Ting, K. M., and Li, G., “The Impact of Isolation Kernel on 
 
 This repository contains the implementation of IK_AHC using MATLAB and Python, respectively.
 
+### Demo
+<!-- The comparison of selected models is made available below ([(Figure)](), [(demo.m)]()).  -->
 
 ---
 ### Citations

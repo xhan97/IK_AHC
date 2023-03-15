@@ -7,13 +7,12 @@ Han, X., Zhu, Y., Ting, K. M., and Li, G., “The Impact of Isolation Kernel on 
 
 This repository contains the implementation of IK_AHC using MATLAB and Python, respectively.
 
-### Demo
-<!-- The comparison of selected models is made available below ([(Figure)](), [(demo.m)]()).  -->
+## Demo
+The comparison of AHC and IK_AHC is made available below ([(Figure)](https://github.com/xhan97/IK_AHC/tree/main/Matlab/demo/figures), [(demo.m)](https://github.com/xhan97/IK_AHC/tree/main/Matlab/demo)).
 
 ---
-### Citations
+## Citations
 ---
-
 If you use it for a scientific publication, please include a reference to this paper.
 
 * Xin Han, Ye Zhu, Kai Ming Ting, and Gang Li, [The Impact of Isolation Kernel on Agglomerative Hierarchical Clustering Algorithms](https://arxiv.org/pdf/2010.05473.pdf), <i>Pattern Recognition</i>, 2023.
@@ -21,7 +20,7 @@ If you use it for a scientific publication, please include a reference to this p
 `BibTex` information:
 
 ```bibtex
-@article{HZTLThe2020,
+@article{HZTLThe2023,
   author = {Han, Xin and Zhu, Ye and Ting, Kai Ming and Li, Gang},
   title = {The Impact of Isolation Kernel on Agglomerative Hierarchical Clustering Algorithms},
   journal = {Pattern Recognition},

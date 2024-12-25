@@ -1,4 +1,4 @@
-# IK_AHC
+# IKAHC
 
 Agglomerative hierarchical clustering (AHC) is one of the popular clustering approaches. AHC can generate a dendrogram that provides richer information and insights from a dataset than partitioning clustering. However, a major problem with existing distance-based AHC methods is: it fails to effectively identify adjacent clusters with varied densities, regardless of the cluster extraction methods applied to the resultant dendrogram. IKAHC aims to reveal the root cause of this issue and provide a solution by using a data-dependent kernel. We analyse the condition under which existing AHC methods fail to effectively extract clusters, and give the reason why the data-dependent kernel is an effective remedy. Our extensive empirical evaluation shows that the recently introduced Isolation Kernel produces a higher quality or purer dendrogram than distance, Gaussian Kernel and adaptive Gaussian Kernel in all the above mentioned AHC algorithms. Technical details and analysis of the algorithm can be found in the paper.
 
